@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.getElementById("footer").innerHTML = `
   
-  <footer class="bg-success text-white text-center py-4 mt-5">
+  <footer class="bg-primary-subtle text-black text-center py-4 mt-5">
     <div class="container">
 
       <h4 class="mb-4">Síguenos en redes sociales</h4>
