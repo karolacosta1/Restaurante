@@ -17,7 +17,7 @@ function reservar(){
         }
         else{
             Swal.fire({
-                title: element+"🎉 Su mensaje ha sido enviado. Gracias por contactarnos.",
+                title: element+"🎉 Su reserva ha sido exitosa. Gracias por elegirnos.",
                 icon: "success",
                 draggable: true
             });
