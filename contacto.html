@@ -13,23 +13,23 @@
 
     <!-- contenico -->
     <form action="">
-      <div class="container mt-5 mb-5 mt-5 w-50 shadow-lg p-4 rounded" style="min-height: 58vh;">
+      <div class="container mt-5 mb-5 mt-5 w-80 shadow-lg p-4 rounded" style="min-height: 58vh;">
      <h2 class="text-center mb-4">Contáctanos </h2>
       <form action="" method="">
        <div class="mb-3">
           <label for="nombre" class="form-label">Nombre:</label>
-          <input type="text" id="nombre" class="form-control">
+          <input type="text" id="nombre" class="form-control" name="nombre">
        </div> 
        <div class="mb-3">
           <label for="correo" class="form-label">Correo:</label>
-          <input type="email" id="correo" class="form-control">
+          <input type="email" id="correo" class="form-control" name="correo">
         </div> 
         <div class="mb-3">
          <label for="mensaje" class="form-label">Mensaje:</label>
-          <textarea name="" id="mensaje" class="form-control" row="4"></textarea>
+          <textarea name="mensaje" id="mensaje" class="form-control" row="4"></textarea>
         </div> 
-        <button class="btn btn-primary form-control mb-3" > Enviar</button>
-        <input type="reset" value="limpiar" class="btn btn-secondary form-control mb-3">
+        <button type="button" class="btn btn-primary mb-3" onclick="contactar ()"> Enviar</button>
+        <input type="reset" value="limpiar" class="btn btn-secondary  mb-3">
       </form>
     </div>
 
@@ -45,5 +45,7 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/barra.js"></script>
     <script src="js/footer.js"></script>
+    <script src="js/contacto.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
 </html>
